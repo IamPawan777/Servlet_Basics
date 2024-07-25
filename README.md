@@ -1,11 +1,11 @@
 
 # Servlet
 
-⚡️ Servlet is an API/Interfae to build "dynamic web application" using java programming.
+⚡️ Servlet is an API / Interfae to build "Dynamic Web Application" using java programming.
 
-⚡️ package:-  jakarta.servlet.* ;
+⚡️ Package:-  jakarta.servlet.* ;
 
-⚡️Life Cycle method:- 1.init() - 2.service() - 3.destroy()
+⚡️Life cycle methods:- 1.init() - 2.service() - 3.destroy()
 
 
 
@@ -21,7 +21,7 @@
     
 ### web.xml
 
-deployment discriptor file.
+Deployment discriptor file.
 ```bash
   -> Important for mapping servlet file.
   -> All deploment based discription are written here.
@@ -32,7 +32,7 @@ deployment discriptor file.
 
 ## Basic code:
 
-implementing servlet interface.
+Implementing servlet interface.
 
 ```bash
 package servletClass;
@@ -65,11 +65,9 @@ public class FirstServletClass implements Servlet {
 		return null; 
 	}
 
-
 	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
 		System.out.println("Service class");
 	}
-
 }
 
 ```
@@ -83,7 +81,6 @@ public class FirstServletClass implements Servlet {
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `servlet to servlet` | `Internal` |  RequestDispature rd = request.getRequestDispature();
-|
 
 #### Different application one servar to other servar.
 
@@ -155,5 +152,5 @@ pw.println(".......");
 
 
 
-# Hi, I'm Pawan! 👋
+# Thank You...! 👋
 
